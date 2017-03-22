@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:queryHint="请输入列车编号"
+        android:inputType="textCapWords"
+        android:icon="@mipmap/icon_search"
+        android:imeOptions="actionSearch"
+        android:title="输入列车名称"/>
+</menu>
